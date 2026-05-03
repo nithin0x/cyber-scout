@@ -81,7 +81,7 @@ Use the web dashboard to track trends and deep-dive into historical intelligence
 Set it and forget it with cron-based scheduling and instant Slack notifications.
 | Step 4.1: Cron Scheduling | Step 4.2: Slack Delivery |
 |:---:|:---:|
-| ![Cron](evidence/05_automation/02_cron_scheduling_confirmation.png) | ![Slack](evidence/04_results/01_slack_formatted_output.png) |
+| ![Cron](evidence/05_automation/01_cron_scheduling.png) | ![Slack](evidence/04_results/01_slack_formatted_output.png) |
 | *Automating daily runs via crontab.* | *Real-time intelligence delivered to your team.* |
 
 ---
