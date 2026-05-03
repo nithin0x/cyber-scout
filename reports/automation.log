@@ -1,6 +1,0 @@
-[2026-05-04 00:39:43] SUCCESS: Scheduled daily report at 12:34 via cron.
-[2026-05-04 00:39:43] Cron command: 34 12 * * * /usr/bin/bash /home/nithin/Documents/Github/cyber-scout/run_daily_report.sh --run >> /home/nithin/Documents/Github/cyber-scout/reports/automation.log 2>&1
-[2026-05-04 00:39:45] Checking Python version...
-[2026-05-04 00:39:45] ERROR: Unsupported Python version 3.14. Required: 3.10 - 3.13.
-[2026-05-04 00:41:24] SUCCESS: Scheduled daily report at 09:00 via cron.
-[2026-05-04 00:41:24] Cron command: 0 9 * * * /usr/bin/bash /home/nithin/Documents/Github/cyber-scout/run_daily_report.sh --run >> /home/nithin/Documents/Github/cyber-scout/reports/automation.log 2>&1

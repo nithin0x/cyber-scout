@@ -2,8 +2,8 @@
 
 Cyber Scout is an automated threat intelligence pipeline that leverages multi-agent AI (CrewAI) and DigitalOcean AI Agents to hunt, analyze, and report on emerging cyber threats and vulnerabilities.
 
-![Cyber Scout Dashboard](evidence/03_dashboard/03_main_analytics_view.png)
-*Figure: Cyber Scout Dashboard featuring trend analytics, risk distribution, and automated scanning.*
+![Slack Output](evidence/04_results/01_slack_formatted_output.png)
+*Figure: Automated Slack report with executive summary, top threats, and SOC actions.*
 
 ## Key Features
 
@@ -38,38 +38,6 @@ Exa provides the real-time web intelligence data.
   - Setup Guide: [Uploading files to Slack](https://api.slack.com/messaging/files/uploading)
   - Required Scopes: files:write, chat:write.
   - What you need: SLACK_BOT_TOKEN (starts with xoxb-) and SLACK_CHANNEL_ID.
-
-## Project Capabilities
-
-Cyber Scout transforms raw web data into actionable cybersecurity intelligence through its autonomous agent pipeline:
-
-- **Autonomous Threat Hunting**: Uses AI to scour the web for the latest ransomware TTPs (Tactics, Techniques, and Procedures), zero-day exploits, and emerging malware campaigns.
-- **Deep Vulnerability Analysis**: Beyond just listing CVEs, the system analyzes exploitability, assesses risk based on your tech stack, and identifies "in-the-wild" activity.
-- **Automated SOC Playbooks**: For every identified threat, the Incident Response Advisor agent generates prioritized SOC actions, defensive strategies, and IOC lists.
-- **Executive and Technical Reporting**: Generates multi-layered reports suitable for both C-suite executives (summaries) and SOC analysts (technical details and IOCs).
-- **Historical Trend Tracking**: The built-in database and dashboard allow teams to track recurring threats and monitor the risk landscape over time.
-
----
-
-## Sample Results
-
-The following outputs demonstrate the depth and format of the intelligence Cyber Scout provides:
-
-### 1. Real-Time Slack Alerts
-Delivers a high-signal summary of findings directly to your team's communication channel, including risk scores and critical alerts.
-- **View Sample**: [Slack Formatted Output](evidence/04_results/01_slack_formatted_output.png)
-
-### 2. Professional PDF Reports
-Generated for executive briefings and archival. These reports include cited sources, detailed analysis, and a structured SOC action plan.
-- **Download Sample**: [Technical PDF Report](evidence/04_results/02_pdf_report_sample.pdf)
-
-### 3. Machine-Readable Intelligence
-Exports findings in JSON format, enabling seamless integration with other security tools like SIEMs (Splunk, Sentinel) or SOAR platforms.
-- **View Sample**: [JSON Export Preview](evidence/02_cli/04_json_report_preview.png)
-
-### 4. Interactive Trend Dashboard
-A bird's-eye view of your organization's threat landscape, highlighting total reports, risk severity distribution, and top recurring threats.
-- **View Sample**: [Dashboard Analytics](evidence/03_dashboard/03_main_analytics_view.png)
 
 ---
 
