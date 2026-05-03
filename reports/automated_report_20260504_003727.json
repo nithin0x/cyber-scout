@@ -1,0 +1,187 @@
+{
+  "findings": [
+    {
+      "type": "cve",
+      "title": "CVE-2026-41940",
+      "severity": "High",
+      "description": "| **Vulnerability** | CVE-2026-41940 (cPanel) - Authentication bypass actively exploited in the wild | CRITICAL |"
+    },
+    {
+      "type": "cve",
+      "title": "CVE-2026-32202",
+      "severity": "High",
+      "description": "| **Vulnerability** | CVE-2026-32202 (Windows Shell) - Zero-click spoofing exploited by APT28 | CRITICAL |"
+    },
+    {
+      "type": "threat",
+      "title": "Key Development",
+      "severity": "High",
+      "description": "Key Development:** Deployment of custom exfiltration tool `uploader_client.exe` represents significant maturation in operational security, moving away from commodity tools (Rclone, MegaSync) to reduce detection signatures"
+    },
+    {
+      "type": "threat",
+      "title": "Core Capabilities",
+      "severity": "High",
+      "description": "Core Capabilities:"
+    },
+    {
+      "type": "threat",
+      "title": "Parallel upload support (up to 5 concurrent streams per file)",
+      "severity": "High",
+      "description": "Parallel upload support (up to 5 concurrent streams per file)"
+    },
+    {
+      "type": "threat",
+      "title": "TCP connection rotation at 2GB threshold to evade network monitoring",
+      "severity": "High",
+      "description": "TCP connection rotation at 2GB threshold to evade network monitoring"
+    },
+    {
+      "type": "threat",
+      "title": "Selective exfiltration targeting high-value file types (invoices, PDFs)",
+      "severity": "High",
+      "description": "Selective exfiltration targeting high-value file types (invoices, PDFs)"
+    },
+    {
+      "type": "threat",
+      "title": "Authentication-key restricted access to stolen data",
+      "severity": "High",
+      "description": "Authentication-key restricted access to stolen data"
+    },
+    {
+      "type": "threat",
+      "title": "Kernel-level security product disablement",
+      "severity": "High",
+      "description": "Kernel-level security product disablement"
+    },
+    {
+      "type": "threat",
+      "title": "Kernel-Level Driver Installation",
+      "severity": "High",
+      "description": "Kernel-Level Driver Installation:"
+    },
+    {
+      "type": "threat",
+      "title": "Driver Name",
+      "severity": "High",
+      "description": "Driver Name: HRSword (Huorong Security Driver)"
+    },
+    {
+      "type": "threat",
+      "title": "Installation Method",
+      "severity": "High",
+      "description": "Installation Method: Kernel driver service creation via `CreateService()` API"
+    },
+    {
+      "type": "threat",
+      "title": "Persistence Type",
+      "severity": "High",
+      "description": "Persistence Type: BOOT_START service configuration"
+    },
+    {
+      "type": "threat",
+      "title": "Registry Path",
+      "severity": "High",
+      "description": "Registry Path: `HKLM\\SYSTEM\\CurrentControlSet\\Services\\HRSword`"
+    },
+    {
+      "type": "threat",
+      "title": "Privilege Level",
+      "severity": "High",
+      "description": "Privilege Level: SYSTEM (Ring 0 kernel access)"
+    },
+    {
+      "type": "threat",
+      "title": "BYOVD (Bring Your Own Vulnerable Driver) Technique",
+      "severity": "High",
+      "description": "BYOVD (Bring Your Own Vulnerable Driver) Technique:"
+    },
+    {
+      "type": "threat",
+      "title": "Exploits legitimately signed but vulnerable kernel drivers",
+      "severity": "High",
+      "description": "Exploits legitimately signed but vulnerable kernel drivers"
+    },
+    {
+      "type": "threat",
+      "title": "Common targets",
+      "severity": "High",
+      "description": "Common targets: `DBUtil_2_3.sys`, `AsIO.sys`, `gdrv.sys`, `capcom.sys`"
+    },
+    {
+      "type": "threat",
+      "title": "Enables kernel-level operations without custom driver signing",
+      "severity": "High",
+      "description": "Enables kernel-level operations without custom driver signing"
+    },
+    {
+      "type": "threat",
+      "title": "Terminates EDR/AV processes from kernel space (unprotected operation)",
+      "severity": "High",
+      "description": "Terminates EDR/AV processes from kernel space (unprotected operation)"
+    },
+    {
+      "type": "threat",
+      "title": "Network Evasion Techniques",
+      "severity": "High",
+      "description": "Network Evasion Techniques:"
+    },
+    {
+      "type": "threat",
+      "title": "Connection rotation at 2GB threshold to evade traffic analysis",
+      "severity": "High",
+      "description": "Connection rotation at 2GB threshold to evade traffic analysis"
+    },
+    {
+      "type": "threat",
+      "title": "Selective exfiltration reducing traffic volume",
+      "severity": "High",
+      "description": "Selective exfiltration reducing traffic volume"
+    },
+    {
+      "type": "threat",
+      "title": "Authentication-key restriction ensuring ransom leverage",
+      "severity": "High",
+      "description": "Authentication-key restriction ensuring ransom leverage"
+    },
+    {
+      "type": "threat",
+      "title": "VECT 2.0 operates as a de facto wiper",
+      "severity": "High",
+      "description": "VECT 2.0 operates as a de facto wiper** due to fundamental cryptographic implementation flaws. Files exceeding 128 KB have three of four decryption nonces discarded, making recovery **impossible regardless of ransom payment"
+    },
+    {
+      "type": "threat",
+      "title": "Targets Windows environments with local/network share access",
+      "severity": "High",
+      "description": "Targets Windows environments with local/network share access"
+    },
+    {
+      "type": "threat",
+      "title": "Deploys secondary payloads (password stealers)",
+      "severity": "High",
+      "description": "Deploys secondary payloads (password stealers)"
+    },
+    {
+      "type": "threat",
+      "title": "No publicly available decryptor",
+      "severity": "High",
+      "description": "No publicly available decryptor"
+    },
+    {
+      "type": "threat",
+      "title": "Attacker-controlled decryption keys",
+      "severity": "High",
+      "description": "Attacker-controlled decryption keys"
+    }
+  ],
+  "top_risks": [
+    "CVE-2026-41940: | **Vulnerability** | CVE-2026-41940 (cPanel) - Authentication bypass actively exploited in the wild | CRITICAL |",
+    "CVE-2026-32202: | **Vulnerability** | CVE-2026-32202 (Windows Shell) - Zero-click spoofing exploited by APT28 | CRITICAL |"
+  ],
+  "sections": {
+    "Executive Summary": "The current threat landscape demonstrates **heightened operational sophistication** among ransomware operators, with a notable shift toward **proprietary tooling**, **cross-platform capabilities**, and **wiper-like destructive behavior**. Intelligence analysis reveals **61 active ransomware groups** conducting high-volume campaigns, with emerging actors rapidly scaling operations alongside established operators maintaining persistence despite law enforcement pressure.\n\n### Critical Findings Summary\n\n| Category | Finding | Severity |\n|----------|---------|----------|\n| **Ransomware** | Trigona deploying custom exfiltration tooling with kernel-level defense evasion | CRITICAL |\n| **Ransomware** | VECT 2.0 operating as de facto wiper due to cryptographic flaws - recovery impossible | CRITICAL |\n| **Ransomware** | NBLOCK actively targeting Windows environments with AES-256 encryption | HIGH |\n| **Vulnerability** | CVE-2026-41940 (cPanel) - Authentication bypass actively exploited in the wild | CRITICAL |\n| **Vulnerability** | CVE-2026-32202 (Windows Shell) - Zero-click spoofing exploited by APT28 | CRITICAL |\n| **Campaign Activity** | 799 confirmed attacks in 30-day window; Qilin/Agenda leading with 107 victims | HIGH |\n\n### Threat Actor Momentum Analysis\n\n| Actor Category | Groups | Trend |\n|----------------|--------|-------|\n| Established Operators | The_Gentelman (68), DragonForce (67), Akira (54), LockBit (37) | Persistent despite LE pressure |\n| Rapidly Expanding | CoinbaseCartel (62, +182%), Krybit (20), Lamashtu (17) | Aggressive scaling observed |\n\n### Geographic Targeting\n\n| Rank | Country | Victim Share |\n|------|---------|--------------|\n| 1 | United States | 41.4% |\n| 2 | United Kingdom | Significant |\n| 3 | Germany | Significant |\n| 4 | France | Significant |\n\n---",
+    "Top Threats": "### 1. Trigona Ransomware\n\n| Attribute | Details |\n|-----------|---------|\n| **Threat Classification** | Double-extortion ransomware |\n| **Operational Status** | Active (resumed after Oct 2023 disruption) |\n| **First Observed** | October 2022 |\n| **Ransom Demand** | Monero cryptocurrency |\n| **Confidence Level** | HIGH - Multiple source corroboration |\n\n#### Technical Profile\n\n**Key Development:** Deployment of custom exfiltration tool `uploader_client.exe` represents significant maturation in operational security, moving away from commodity tools (Rclone, MegaSync) to reduce detection signatures.\n\n**Core Capabilities:**\n- Parallel upload support (up to 5 concurrent streams per file)\n- TCP connection rotation at 2GB threshold to evade network monitoring\n- Selective exfiltration targeting high-value file types (invoices, PDFs)\n- Authentication-key restricted access to stolen data\n- Kernel-level security product disablement\n\n#### Observed Toolset\n\n| Tool | Purpose | MITRE ATT&CK Technique |\n|------|---------|------------------------|\n| HRSword (Huorong) | Kernel driver service | T1547.001 |\n| PCHunter, Gmer, YDark, WKTools | Security product disablement | T1562.001 |\n| DumpGuard, StpProcessMonitorByovd | Defense evasion | T1562.001 |\n| PowerRun | Privilege escalation | T1068 |\n| AnyDesk | Remote access | T1219 |\n| Mimikatz, Nirsoft | Credential theft | T1003.001 |\n\n#### Persistence Mechanisms\n\n**Kernel-Level Driver Installation:**\n- Driver Name: HRSword (Huorong Security Driver)\n- Installation Method: Kernel driver service creation via `CreateService()` API\n- Persistence Type: BOOT_START service configuration\n- Registry Path: `HKLM\\SYSTEM\\CurrentControlSet\\Services\\HRSword`\n- Privilege Level: SYSTEM (Ring 0 kernel access)\n\n**BYOVD (Bring Your Own Vulnerable Driver) Technique:**\n- Exploits legitimately signed but vulnerable kernel drivers\n- Common targets: `DBUtil_2_3.sys`, `AsIO.sys`, `gdrv.sys`, `capcom.sys`\n- Enables kernel-level operations without custom driver signing\n- Terminates EDR/AV processes from kernel space (unprotected operation)\n\n#### Command & Control Infrastructure\n\n| Attribute | Technical Specification |\n|-----------|------------------------|\n| **Tool** | `uploader_client.exe` (proprietary) |\n| **Protocol** | TCP-based custom protocol |\n| **Concurrent Streams** | Up to 5 parallel connections per file |\n| **Rotation Threshold** | 2GB data transfer |\n| **Authentication** | Key-based access control |\n\n**Network Evasion Techniques:**\n1. Connection rotation at 2GB threshold to evade traffic analysis\n2. Selective exfiltration reducing traffic volume\n3. Authentication-key restriction ensuring ransom leverage\n\n---\n\n### 2. VECT 2.0 Ransomware/Wiper\n\n| Attribute | Details |\n|-----------|---------|\n| **Threat Classification** | Ransomware-as-a-Service (RaaS) / Destructive wiper |\n| **Operational Status** | Active (v2.0 released February 2026) |\n| **Platforms** | Windows, Linux, ESXi (cross-platform codebase) |\n| **Encryption Method** | ChaCha20-IETF (flawed - no authentication/integrity protection) |\n| **Confidence Level** | HIGH - Technical analysis confirmed |\n\n#### Critical Finding\n\n**VECT 2.0 operates as a de facto wiper** due to fundamental cryptographic implementation flaws. Files exceeding 128 KB have three of four decryption nonces discarded, making recovery **impossible regardless of ransom payment**.\n\n#### Design & Implementation Gaps\n\n| Flaw | Impact |\n|------|--------|\n| No MAC or integrity protection | Misidentified as ChaCha20-Poly1305 in public reports |\n| Non-functional encryption modes | `--fast`, `--medium`, `--secure` modes do not work |\n| Self-cancelling obfuscation routines | Reduces encryption effectiveness |\n| Thread scheduler degradation | Affects encryption performance |\n| Universal 128 KB destruction threshold | Files >128KB permanently destroyed |\n\n#### Cross-Platform Execution Framework\n\n| Platform | Binary Format | Execution Method |\n|----------|---------------|------------------|\n| Windows | PE (Portable Executable) | Native API, PowerShell loaders |\n| Linux | ELF | Shell script wrappers, cron jobs |\n| ESXi | ELF (POSIX-compatible) | `vmkfstools` integration |\n\n#### Ecosystem Affiliations\n\n| Affiliate | Role |\n|-----------|------|\n| TeamPCP | Known for supply-chain attacks |\n| BreachForums | Data leak platform partnership |\n\n---\n\n### 3. NBLOCK Ransomware\n\n| Attribute | Details |\n|-----------|---------|\n| **Threat Classification** | Encryptor ransomware |\n| **Encryption Algorithm** | AES-256 |\n| **File Marker** | `.NBLock` extension |\n| **Ransom Note** | `README_NBLOCK.txt` |\n| **Negotiation Channel** | Tor-based portal |\n| **Confidence Level** | MEDIUM-HIGH - Behavioral analysis ongoing |\n\n#### Technical Profile\n\n- Targets Windows environments with local/network share access\n- Deploys secondary payloads (password stealers)\n- No publicly available decryptor\n- Attacker-controlled decryption keys\n\n#### MITRE ATT&CK Mapping\n\n| Tactic | Technique | Implementation |\n|--------|-----------|----------------|\n| Execution | T1106 - Native API execution | Direct system calls |\n| Persistence | T1547.001 - Registry Run Keys | Auto-run keys |\n| Persistence | T1546.001 - Event Triggered Execution | File association changes |\n| Privilege Escalation | T1055 - Process Injection | Memory manipulation |\n| Command & Control | T1090 - Anonymized channels | Tor-based C2 |\n\n#### Distribution Vectors\n\n| Vector | Priority |\n|--------|----------|\n| Phishing emails with malicious attachments | HIGH |\n| Cracked software distribution | MEDIUM |\n| Exploit-based delivery | HIGH |\n\n---\n\n### 4. Ransomware Landscape Overview (April 2026)\n\n#### Campaign Statistics (30-day window)\n\n| Metric | Value |\n|--------|-------|\n| Active Groups | 61 |\n| Confirmed Attacks | 799 |\n| Top Operator | Qilin/Agenda (107 victims) |\n\n#### Established Operators (Maintaining Momentum)\n\n| Group | Victim Count | Notes |\n|-------|--------------|-------|\n| The"
+  },
+  "critical_found": false
+}
